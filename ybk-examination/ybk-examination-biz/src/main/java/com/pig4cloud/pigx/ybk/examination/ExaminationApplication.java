@@ -15,8 +15,8 @@ import org.springframework.cloud.client.SpringCloudApplication;
 @SpringCloudApplication
 @EnablePigxFeignClients
 @EnablePigxResourceServer
-public class App {
+public class ExaminationApplication {
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(ExaminationApplication.class, args);
     }
 }
